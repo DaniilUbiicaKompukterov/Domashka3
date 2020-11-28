@@ -16,7 +16,7 @@ print(myNewList)                     # вывод новых чисел
 list = 'Hello world'                  # текст
 for i in range(len(list)):            # цикл по индексам
     if list[i] == " ":                # поиск пробела 
-        list = list.replace("w", "W") # если пробел есть , то w меняется на W
+        list = list.replace("Hello world", "HELLO WORLD") # если пробел есть , то всё преходит в верхний регистр
 print(list)                           # вывод результата
 
 
